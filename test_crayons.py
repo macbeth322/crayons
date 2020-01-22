@@ -7,7 +7,7 @@ from crayons import *  # NOQA
 print(crayons.red('red string'))
 print('{} white {}'.format(crayons.red('red'), crayons.blue('blue')))
 crayons.disable()
-print('{} white {}'.format(crayons.red('red'), crayons.blue('blue')))
+print('{} white {} {}'.format(crayons.red('red'), crayons.blue('blue'), crayons.green(1234)))
 crayons.enable()
 print('{} white {}'.format(crayons.red('red'), crayons.blue('blue')))
 print(crayons.red('red string', bold=True))
