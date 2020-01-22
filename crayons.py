@@ -83,7 +83,7 @@ class ColoredString(object):
         elif sys.stdout.isatty() and not DISABLE_COLOR:
             return c
         else:
-            return self.s
+            return str(self.s)
 
     def __len__(self):
         return len(self.s)
